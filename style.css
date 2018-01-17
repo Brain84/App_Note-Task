@@ -1,0 +1,117 @@
+*,
+:before,
+:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  height: 100%;
+}
+#top {
+  min-height: 10vh;
+  background-color: #e90052;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#left {
+  float: left;
+  width: 50%;
+  height: 90vh;
+  background-color: #04f5ff;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#right {
+  float: left;
+  width: 50%;
+  height: 90vh;
+  background-color: #00ff87;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.form-note {
+  width: 400px;
+  margin: auto;
+}
+.form-note input {
+  height: 30px;
+  width: 70%;
+  border-radius: 5px;
+}
+.new-note-button {
+  height: 30px;
+  border-radius: 5px;
+  background-color: #46004b;
+  border: 1px solid #46004b;
+  color: #fff;
+  outline: none;
+  float: right;
+}
+.new-note-button:hover {
+  cursor: pointer;
+  background-color: #49337b;
+  border: 1px solid #49337b;
+}
+.sticker {
+  min-height: 210px;
+  min-width: 250px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #ffee00;
+  border: 3px solid #ffee00;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.sticker:hover {
+  z-index: 1;
+}
+.bar {
+  width: 100%;
+  height: 25px;
+  background-color: #ffee00;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  cursor: move;
+  margin-bottom: 5px;
+}
+.bar:hover {
+  background-color: #ffff99;
+}
+.close-note {
+  background-color: #e90052;
+  height: 20px;
+  width: 20px;
+  display: block;
+  float: right;
+  border-radius: 50%;
+}
+.close-note:hover {
+  cursor: pointer;
+}
+.name-note {
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  border: 1px solid #fff;
+  outline: none;
+  position: absolute;
+}
+.form-textarea {
+  min-width: 250px;
+  min-height: 150px;
+  margin-top: 30px;
+  outline: none;
+  border: 1px solid #fff;
+  font-family: 'Arial', sans-serif;
+}
